@@ -1,0 +1,131 @@
+body {
+  padding-bottom: 800px;
+}
+
+.flex {
+  display: flex;
+  background-color: #ddd;
+  margin-bottom: 20px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  background-color: #ccc;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.box{
+  height: 40px;
+  width: 33%;
+  border: 1px solid black;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.center .box{
+  width: 50px;
+}
+
+.gap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid green;
+  gap: 10px;
+}
+
+.gap .box{
+  width: 32%;
+}
+
+.order{
+  display: flex;
+}
+
+#one {
+  order: 1;
+}
+
+#two {
+  order: 2;
+}
+
+#three {
+  order: 3;
+}
+
+.grow {
+  display: flex;
+}
+
+.grow .box {
+  flex: 1;
+}
+
+.grow .big {
+  flex: 2;
+}
+
+.basis {
+  display: flex;
+}
+
+.basis .box{
+  flex-basis: 30px;
+}
+
+.basis .big {
+  flex: 2;
+}
+
+.shrink{
+  display: flex;
+}
+
+.shrink .box {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 250px;
+  width: auto;
+}
+
+.shrink .small{
+  flex-shrink: 2;
+}
+
+.shorthand{
+  display: flex;
+}
+
+.shorthand .box{
+  width: auto;
+  flex: 1 1 50px
+}
+
+.shorthand .different{
+  flex: 3 1 400px;
+}
+
+.align-self{
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  border: 1px solid black;
+}
+
+.align-self .different{
+  align-self: center;
+  color: blue;
+  margin: 0 auto;
+}
