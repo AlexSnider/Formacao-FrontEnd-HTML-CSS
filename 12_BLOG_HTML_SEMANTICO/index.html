@@ -6,9 +6,114 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
+    <link
+      rel="stylesheet"
+      href="/12_BLOG_HTML_SEMANTICO/css/styles.css"
+    />
     <title>Blog Semântico</title>
   </head>
   <body>
-    
+    <header>
+      <nav id="navbar">
+        <div id="navbar-inner">
+          <h2>Blog</h2>
+          <ul id="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Categorias</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <main id="posts-container">
+        <article class="post">
+          <img
+            src="/12_BLOG_HTML_SEMANTICO/img/f1.jpg"
+            alt="f1"
+          />
+          <h3 class="title"><a href="#">Título</a></h3>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sapiente iure
+            cumque placeat voluptatum. Doloremque quia ullam soluta nihil. Sequi itaque
+            rem officiis voluptatum accusantium?
+          </p>
+          <p class="author">por: Alex Snider</p>
+          <a href="#">Ler Mais</a>
+        </article>
+        <article class="post">
+          <img
+            src="/12_BLOG_HTML_SEMANTICO/img/f2.jpg"
+            alt="f2"
+          />
+          <h3 class="title"><a href="#">Título</a></h3>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sapiente iure
+            cumque placeat voluptatum. Doloremque quia ullam soluta nihil. Sequi itaque
+            rem officiis voluptatum accusantium?
+          </p>
+          <p class="author">por: Alex Snider</p>
+          <a href="#">Ler Mais</a>
+        </article>
+        <article class="post">
+          <img
+            src="/12_BLOG_HTML_SEMANTICO/img/f3.jpg"
+            alt="f3"
+          />
+          <h3 class="title"><a href="#">Título</a></h3>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sapiente iure
+            cumque placeat voluptatum. Doloremque quia ullam soluta nihil. Sequi itaque
+            rem officiis voluptatum accusantium?
+          </p>
+          <p class="author">por: Alex Snider</p>
+          <a href="#">Ler Mais</a>
+        </article>
+      </main>
+      <aside id="sidebar">
+        <section id="search-bar">
+          <h4>Busca</h4>
+          <form action="#">
+            <input
+              type="text"
+              placeholder="Pesquise no Blog"
+            />
+            <input
+              type="submit"
+              value="Buscar"
+            />
+          </form>
+        </section>
+        <section id="categories">
+          <h4>Categorias</h4>
+          <nav>
+            <ul>
+              <li><a href="#">Paisagens</a></li>
+              <li><a href="#">Aventura</a></li>
+              <li><a href="#">Viagens Longas</a></li>
+              <li><a href="#">Florestas</a></li>
+              <li><a href="#">Cachoeiras</a></li>
+            </ul>
+          </nav>
+        </section>
+        <section id="tags">
+          <h4>Tags</h4>
+          <div id="tags-container">
+            <a href="#">Lifestyle</a>
+            <a href="#">Viagem</a>
+            <a href="#">Barco</a>
+            <a href="#">Trilha</a>
+            <a href="#">Tirolesa</a>
+            <a href="#">Rafting</a>
+            <a href="#">Parapente</a>
+          </div>
+        </section>
+      </aside>
+    </div>
+    <footer id="footer">
+      <h2>Blog</h2>
+      <p>Os melhores resgistros de Aventuras</p>
+      <p>2023 &copy; Hora de Codar</p>
+    </footer>
   </body>
 </html>
